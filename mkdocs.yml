@@ -1,0 +1,21 @@
+site_name: My Project Documentation
+site_description: Official documentation portal powered by MkDocs
+
+# Popular, clean theme (Material for MkDocs)
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+
+# Navigation Menu Structure
+nav:
+  - Home: index.md
+  - About: about.md
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
